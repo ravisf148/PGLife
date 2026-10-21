@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.npm/
+
+# Backups and audit artifacts
+.backup_audit/
+*.bak
+*.bak2
+audit_and_plan.md
+crawler.php
+db_test.php
+scratch_test_crawler.php
+
+# Large external video assets
+*.mp4
+
+# IDE, Editor, and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Logs and environment
+*.log
+.env
+.env.*

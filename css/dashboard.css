@@ -1,0 +1,168 @@
+/* My Profile */
+.my-profile {
+    padding-bottom: 24px;
+}
+
+.profile-img-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    font-size: 80px;
+    color: #6c757d;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    padding: 24px;
+    width: 130px;
+    height: 130px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile .name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.profile .email,
+.profile .phone,
+.profile .college {
+    color: #6f6f6f;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.edit-profile {
+    color: #EA322E;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: right;
+}
+
+.edit-profile:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .profile-img-container {
+        margin-bottom: 16px;
+    }
+
+    .edit-profile {
+        text-align: left;
+        margin-top: 12px;
+    }
+}
+
+/* My Interested Properties */
+.my-interested-properties {
+    background-color: #fbfbfb;
+}
+
+.my-interested-properties .page-container {
+    padding-top: 40px;
+}
+
+.property-card {
+    background-color: #ffffff;
+    border-radius: 2px;
+    padding: 15px 0px;
+    margin: 0px auto 20px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.property-card:focus,
+.property-card:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.image-container {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .image-container {
+        padding-bottom: 12px;
+    }
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.star-container i {
+    color: #EA322E;
+    font-size: 10px;
+    margin-right: 6px;
+}
+
+.interested-container {
+    text-align: center;
+}
+
+.interested-container i {
+    color: #EA322E;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.interested-text {
+    font-size: 10px;
+}
+
+.detail-container {
+    padding-bottom: 10px;
+}
+
+.property-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.property-address {
+    color: #6f6f6f;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.property-gender img {
+    width: 40px;
+}
+
+.rent-container {
+    display: flex;
+    align-items: center;
+}
+
+.rent {
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.rent-unit {
+    color: #6f6f6f;
+    font-size: 12px;
+}
+
+.button-container .btn {
+    font-size: 14px;
+    border-radius: 0px;
+    width: 140px;
+    float: right;
+}
+
+/* No Property */
+.no-property-container {
+    margin: 48px auto 96px;
+}
+
+.no-property-container p {
+    font-size: 20px;
+    text-align: center;
+}

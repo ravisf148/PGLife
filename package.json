@@ -1,0 +1,18 @@
+{
+  "name": "pglife",
+  "version": "1.0.0",
+  "description": "PGLife Student Accommodation Portal with React Component Integration",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/PropertyList.jsx --bundle --minify --format=iife --outfile=js/react-components/property_list.bundle.js --define:process.env.NODE_ENV=\\\"production\\\"",
+    "build:dev": "esbuild src/PropertyList.jsx --bundle --format=iife --outfile=js/react-components/property_list.bundle.js --sourcemap",
+    "watch": "esbuild src/PropertyList.jsx --bundle --format=iife --outfile=js/react-components/property_list.bundle.js --watch"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}
