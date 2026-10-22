@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Gracefully handle invisible unicode characters or trailing junk appended to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^index\.php.*$ index.php [L,QSA]
+</IfModule>
